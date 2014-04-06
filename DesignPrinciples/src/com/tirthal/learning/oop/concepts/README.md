@@ -1,0 +1,1 @@
+For more detail, please read [here](http://tirthalpatel.blogspot.in/2014/01/oop-design-part-1-fundamentals.html)
