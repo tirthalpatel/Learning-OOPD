@@ -11,7 +11,7 @@ For more detail, please read [here](http://tirthalpatel.blogspot.in/2014/01/oop-
 Object oriented programming concepts
 ------------------------------------
 
-Refer package - com.tirthal.learning.oop.concepts
+Refer package - [com.tirthal.learning.oop.concepts](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPrinciples/src/com/tirthal/learning/oop/concepts)
 
 For more detail, please read [here](http://tirthalpatel.blogspot.in/2014/01/oop-design-part-1-fundamentals.html)
 
@@ -19,7 +19,7 @@ For more detail, please read [here](http://tirthalpatel.blogspot.in/2014/01/oop-
 Class design principles - SOLID
 --------------------------------
 
-Refer package - com.tirthal.learning.oop.design.principles.clazz.solid
+Refer package - [com.tirthal.learning.oop.design.principles.clazz.solid](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPrinciples/src/com/tirthal/learning/oop/design/principles/clazz/solid)
 
 For more detail, please read here
 
