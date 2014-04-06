@@ -1,1 +1,1 @@
-For more detail, please read here
+For more detail, please read [here](http://tirthalpatel.blogspot.in/2014/04/oop-design-part-2-class-principles-solid.html)

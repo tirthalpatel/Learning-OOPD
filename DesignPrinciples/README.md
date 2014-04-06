@@ -21,7 +21,7 @@ Class design principles - SOLID
 
 Refer package - [com.tirthal.learning.oop.design.principles.clazz.solid](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPrinciples/src/com/tirthal/learning/oop/design/principles/clazz/solid)
 
-For more detail, please read here
+For more detail, please read [here](http://tirthalpatel.blogspot.in/2014/04/oop-design-part-2-class-principles-solid.html)
 
 
 Class design principles - GRASP
