@@ -1,5 +1,4 @@
 *** OCP = Open Closed Principle
-
 -----------------------------------------------
 
 *** Description = http://www.oodesign.com/design-principles.html

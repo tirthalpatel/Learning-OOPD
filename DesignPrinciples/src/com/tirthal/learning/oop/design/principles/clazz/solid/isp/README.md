@@ -1,5 +1,4 @@
 *** ISP = Interface segregation principle
-
 -----------------------------------------------
 
 *** Description = 

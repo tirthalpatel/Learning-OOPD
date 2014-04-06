@@ -1,5 +1,4 @@
 *** SRP = Single Responsibility Principle
-
 -----------------------------------------------
 
 *** Description =

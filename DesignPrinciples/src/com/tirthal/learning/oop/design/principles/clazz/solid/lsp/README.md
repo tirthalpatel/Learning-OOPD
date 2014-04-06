@@ -1,5 +1,4 @@
 *** LSP = Liskov's Substitution Principle
-
 -----------------------------------------------
 
 *** Description = 
