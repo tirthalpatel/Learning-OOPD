@@ -7,10 +7,10 @@ Sample java code for learning object oriented programming design principles and 
 DesignPrinciples
 -----------------
 
-For more detail, please read [here](http://tirthalpatel.blogspot.in/2014/01/oop-design-fundamentals-and-principles.html)
+For more detail, please refer [here](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPrinciples)
 
 
 DesignPatterns
 --------------
 
-TODO - To be added...
+For more detail, please refer [here](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns)
