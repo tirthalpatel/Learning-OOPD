@@ -13,9 +13,9 @@ Lastly in year 2005, I read "Head First Design Patterns" book and then I conside
 Again I thought to revise my design patterns knowledge in this year, and this project would be consequence of it.   
 
 I took some content from below resources for the quick reference, so credit goes to authors of "SourceMaking Site", "OODesign Site" and "Design Patterns DZone Refcard".
-	* http://sourcemaking.com/design_patterns
-	* http://www.oodesign.com/
-	* http://refcardz.dzone.com/refcardz/design-patterns
+* http://sourcemaking.com/design_patterns
+* http://www.oodesign.com/
+* http://refcardz.dzone.com/refcardz/design-patterns
 
 Additionally I would implement some of java code examples based on my experience. Also I aim to keep adding more examples to demonstrate Java 8 based implementation of design patterns in future.
 
@@ -39,12 +39,12 @@ Creational Patterns
 Used to construct objects such that they can be decoupled from their implementing system.
 
 [Start exploring creation pattern] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational)	
-	* Abstract Factory - Creates an instance of several families of classes	
-	* Builder - Separates object construction from its representation
-	* Factory Method - Creates an instance of several derived classes
-	* Object Pool - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
-	* Prototype - A fully initialized instance to be copied or cloned
-	* Singleton - Ensures one and only object is created
+* Abstract Factory - Creates an instance of several families of classes	
+* Builder - Separates object construction from its representation
+* Factory Method - Creates an instance of several derived classes
+* Object Pool - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
+* Prototype - A fully initialized instance to be copied or cloned
+* Singleton - Ensures one and only object is created
 
 Structural Patterns
 -------------------
@@ -52,14 +52,14 @@ Structural Patterns
 Used to form large object structures between many disparate objects.
 
 [Start exploring structural pattern] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural)
-	* Adapter - Match interfaces of different classes
-	* Bridge - Separates an object’s interface from its implementation
-	* Composite - A tree structure of simple and composite objects
-	* Decorator - Add responsibilities to objects dynamically
-	* Facade - A single class that represents an entire subsystem
-	* Flyweight - A fine-grained instance used for efficient sharing
-	* Private Class Data - Restricts accessor/mutator access
-	* Proxy - An object representing another object
+* Adapter - Match interfaces of different classes
+* Bridge - Separates an object’s interface from its implementation
+* Composite - A tree structure of simple and composite objects
+* Decorator - Add responsibilities to objects dynamically
+* Facade - A single class that represents an entire subsystem
+* Flyweight - A fine-grained instance used for efficient sharing
+* Private Class Data - Restricts accessor/mutator access
+* Proxy - An object representing another object
 
 Behavioral Patterns
 -------------------
@@ -67,18 +67,18 @@ Behavioral Patterns
 Used to manage algorithms, relationships and responsibilities between objects.
 
 [Start exploring behavioral pattern] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral)
-	* Chain of Responsibility - A way of passing a request between a chain of objects
-	* Command - Encapsulate a command request as an object
-	* Interpreter - A way to include language elements in a program
-	* Iterator - Sequentially access the elements of a collection
-	* Mediator - Defines simplified communication between classes
-	* Memento - Capture and restore an object's internal state
-	* Null Object - Designed to act as a default value of an object
-	* Observer - A way of notifying change to a number of classes
-	* State - Alter an object's behavior when its state changes
-	* Strategy - Encapsulates an algorithm inside a class
-	* Template Method - Defer the exact steps of an algorithm to a subclass
-	* Visitor - Defines a new operation to a class without change
+* Chain of Responsibility - A way of passing a request between a chain of objects
+* Command - Encapsulate a command request as an object
+* Interpreter - A way to include language elements in a program
+* Iterator - Sequentially access the elements of a collection
+* Mediator - Defines simplified communication between classes
+* Memento - Capture and restore an object's internal state
+* Null Object - Designed to act as a default value of an object
+* Observer - A way of notifying change to a number of classes
+* State - Alter an object's behavior when its state changes
+* Strategy - Encapsulates an algorithm inside a class
+* Template Method - Defer the exact steps of an algorithm to a subclass
+* Visitor - Defines a new operation to a class without change
 
 Concurrency Patterns
 --------------------
