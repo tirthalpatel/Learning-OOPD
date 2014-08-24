@@ -22,10 +22,10 @@ public class AppTestDrive {
 		LoggerUsingInnerClass.getInstance().print();
 		System.out.println("-------------");
 		
-		// Option 3 - simplify singleton implementation using enum in Java 5
-		LoggerUsingEnum.INSTANCE.print();
-		LoggerUsingEnum.INSTANCE.print();
-		LoggerUsingEnum.INSTANCE.print();
+		// Option 3 - singleton implementation using Java 5 enum
+		LoggerUsingEnum.getInstance().print();
+		LoggerUsingEnum.getInstance().print();
+		LoggerUsingEnum.getInstance().print();
 	}
 
 }

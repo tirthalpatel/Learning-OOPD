@@ -1,7 +1,11 @@
 Singleton Pattern
 ==================
 
-Run AppTestDrive.java and refer the corresponding code flow.
+Run [AppTestDrive.java](https://github.com/tirthalpatel/Learning-OOPD/blob/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/singleton/AppTestDrive.java) and refer the corresponding code flow.
+* Option 1 - lazy instantiation using double locking mechanism
+* Option 2 - simplify singleton implementation using inner class
+* Option 3 - singleton implementation using Java 5 enum
+
 
 Purpose / Definition
 ------------------

@@ -13,4 +13,4 @@ Following are creational patterns. Click below url to learn further.
 * Factory Method - Creates an instance of several derived classes
 * Object Pool - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
 * Prototype - A fully initialized instance to be copied or cloned
-* [Singleton](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/singleton) - A class of which only a single instance can exist
+* [Singleton](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/singleton) - A class of which only a single instance can exist per system

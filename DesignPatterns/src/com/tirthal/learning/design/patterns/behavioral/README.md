@@ -1,4 +1,4 @@
-Behavirol Patterns
+Behavioral Patterns
 ==================
 * Deals with how classes and objects interact and distribute responsibility
 * Behavioral patterns focus on algorithms and the assignment of responsibilities between objects. They address object or class patterns as well as the communication patterns between them. 
@@ -15,6 +15,6 @@ Following are behavirol patterns. Click below url to learn further.
 * Null Object - Designed to act as a default value of an object
 * Observer - A way of notifying change to a number of classes
 * State - Alter an object's behavior when its state changes
-* Strategy - Encapsulates an algorithm inside a class
+* [Strategy] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral/strategy) - Encapsulates an algorithm inside a class
 * Template Method - Defer the exact steps of an algorithm to a subclass
 * Visitor - Defines a new operation to a class without change
