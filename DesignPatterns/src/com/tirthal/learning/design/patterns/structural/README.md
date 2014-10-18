@@ -9,7 +9,7 @@ Following are structural patterns. Click below url to learn further.
 * Adapter - Match interfaces of different classes
 * Bridge - Separates an object’s interface from its implementation
 * Composite - A tree structure of simple and composite objects
-* Decorator - Add responsibilities to objects dynamically
+* [Decorator] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural/decorator) - Add additional responsibilities to an object dynamically
 * Facade - A single class that represents an entire subsystem
 * Flyweight - A fine-grained instance used for efficient sharing
 * Private Class Data - Restricts accessor/mutator access

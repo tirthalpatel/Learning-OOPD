@@ -13,7 +13,7 @@ Following are behavirol patterns. Click below url to learn further.
 * Mediator - Defines simplified communication between classes
 * Memento - Capture and restore an object's internal state
 * Null Object - Designed to act as a default value of an object
-* Observer - A way of notifying change to a number of classes
+* [Observer] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral/observer) - A way of notifying change to a number of classes
 * State - Alter an object's behavior when its state changes
 * [Strategy] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral/strategy) - Encapsulates an algorithm inside a class
 * Template Method - Defer the exact steps of an algorithm to a subclass

@@ -45,7 +45,7 @@ Used to construct objects such that they can be decoupled from their implementin
 * Factory Method
 * Object Pool
 * Prototype
-* Singleton
+* [Singleton](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/singleton)
 
 Structural Patterns
 -------------------
@@ -56,7 +56,7 @@ Used to form large object structures between many disparate objects.
 * Adapter
 * Bridge
 * Composite
-* Decorator
+* [Decorator] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural/decorator)
 * Facade
 * Flyweightg
 * Private Class Data
@@ -75,9 +75,9 @@ Used to manage algorithms, relationships and responsibilities between objects.
 * Mediator
 * Memento
 * Null Object
-* Observer
+* [Observer] ((https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral/observer)
 * State
-* Strategy
+* [Strategy] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral/strategy)
 * Template Method
 * Visitor
 
@@ -85,3 +85,9 @@ Concurrency Patterns
 --------------------
 
 To be added in future
+
+
+
+Disclaimer
+-----------
+The code snippet are mainly targeted for learning purpose, and not focused for producing production code quality.
