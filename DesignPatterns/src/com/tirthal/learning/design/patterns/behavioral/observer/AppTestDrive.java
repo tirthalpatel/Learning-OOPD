@@ -6,19 +6,19 @@ import java.util.Scanner;
 /**
  * Demo client which registers and unregister bidders (observers) with auctioner (subject) participate in the auction. If we see, client app is not
  * responsible to broadcast updates to all registered observers, rather it is accomplished through observer pattern.
- * 
+ *
  * See implementation classes of Subject and Observer interfaces.
- * 
+ *
  * @author tirthalp
- * 
+ *
  */
 public class AppTestDrive {
 
 	public static void main(String[] args) {
 		Auctioner auctioner = new Auctioner();
-		BidderOne b1 = new BidderOne();
-		BidderTwo b2 = new BidderTwo();
-		BidderThree b3 = new BidderThree();
+		Bidder b1 = new Bidder("Bidder One - Kat");
+		Bidder b2 = new Bidder("Bidder Two - Ash");
+		Bidder b3 = new Bidder("Bidder Three - Jade");
 
 		// Register bidders
 		System.out.println("------ Registering all bidders");

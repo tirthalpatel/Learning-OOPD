@@ -5,9 +5,9 @@ import java.util.ArrayList;
 /**
  * Auctioner is implementation of Subject, and offers functionality to register observers, notify state updates to registered observers and unregister
  * observers.
- * 
+ *
  * @author tirthalp
- * 
+ *
  */
 public class Auctioner implements Subject {
 	private ArrayList<Observer> observers;
@@ -18,12 +18,14 @@ public class Auctioner implements Subject {
 	}
 
 	// Register
+	@Override
 	public void registerObserver(Observer o) {
 		observers.add(o);
 		System.out.println("Registered: " + o.toString());
 	}
 
 	// Unregister
+	@Override
 	public void removeObserver(Observer o) {
 		int i = observers.indexOf(o);
 		if (i >= 0) {
@@ -33,6 +35,7 @@ public class Auctioner implements Subject {
 	}
 
 	// Notify state changes
+	@Override
 	public void notifyObservers() {
 		for (int i = 0; i < observers.size(); i++) {
 			Observer observer = observers.get(i);
