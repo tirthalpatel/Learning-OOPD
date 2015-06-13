@@ -1,10 +1,9 @@
 Structural Patterns
 ===================
-* Lets you compose classes or objects into larger structures.
-* A structural pattern teaches us how to compose classes and objects to form larger structures. 
-	- A structural class pattern relies on inheritance to compose a resulting interface or implementation (for example, multiple inheritance mixes two or more classes into one class). 
-	- A structural object pattern composes various objects to obtain new functionality.
-	
+* The structural patterns are used to define structures of objects and classes that can work together, and to define how the relations can be established between entities.
+* The structural patterns provide different ways to create a class structure, for example using inheritance and composition, to create a large object from small objects.
+* The structural patterns use composition to merge objects and classes into larger structures; and help to guarantee that when one of the parts changes, the entire structure does not need to change.
+
 Following are structural patterns. Click below url to learn further.
 * Adapter - Match interfaces of different classes
 * Bridge - Separates an object’s interface from its implementation

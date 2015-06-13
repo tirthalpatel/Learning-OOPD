@@ -3,7 +3,7 @@ Observer Pattern
 
 Purpose / Definition
 ------------------
-* Observer pattern = Publishers + Subscribers. 
+* Observer pattern = Publishers + Subscribers.
 * Defines one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 * It lets one or more objects to be notified of state changes in other objects within the system, and in this pattern the objects that watch on the state of another object are called Observer and the object that is being watched is called Subject.
 
@@ -11,8 +11,8 @@ Sample Code Snippet
 -------------------
 * Some auction demonstrate observer pattern - the auctioneer starts the bidding and acceptance of the bid changes to the new highest bid price, which is broadcast to all of the registered bidders in the form of a new bid price.
 * Run [AppTestDrive.java](https://github.com/tirthalpatel/Learning-OOPD/blob/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral/observer/AppTestDrive.java) and refer the corresponding code flow.
-	* Auctioner.java implements Subject.java 
-	* Bidder*.java implements Observer.java  
+	* Auctioner.java implements Subject.java
+	* Bidder.java implements Observer.java
 
 Use when
 --------
@@ -41,4 +41,4 @@ More Relevant Examples
 * [java.util.Observer](http://docs.oracle.com/javase/7/docs/api/java/util/Observer.html) and [java.util.Observable](http://docs.oracle.com/javase/7/docs/api/java/util/Observable.html) (rarely used in real world though)
 * [java.util.EventListener](http://docs.oracle.com/javase/6/docs/api/java/util/EventListener.html) implementations (used in all over Swing)
 * [javax.servlet.http.HttpSessionBindingListener](http://docs.oracle.com/javaee/5/api/javax/servlet/http/HttpSessionBindingListener.html)
-* Java Message Service (JMS) uses Observer pattern along with Mediator pattern to allow applications to subscribe and publish data to other applications. 
+* Java Message Service (JMS) uses Observer pattern along with Mediator pattern to allow applications to subscribe and publish data to other applications.

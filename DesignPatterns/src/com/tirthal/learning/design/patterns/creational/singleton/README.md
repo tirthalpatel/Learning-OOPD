@@ -3,12 +3,12 @@ Singleton Pattern
 
 Purpose / Definition
 --------------------
-* Ensures that only one instance of a class is allowed within a system (per JVM).
+* Ensures that only one instance of a class is created within a system (per JVM) and provides a global access point to the object.
 * Ensures that only one instance of a particular class is ever created. All further references to objects of singleton class refer to the same underlying instance.
 
 Sample Code Snippet
 -------------------
-* Singleton instance of logger class 
+* Singleton instance of logger class
 * Run [AppTestDrive.java](https://github.com/tirthalpatel/Learning-OOPD/blob/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/singleton/AppTestDrive.java) and refer the corresponding code flow.
 	* Option 1 - lazy instantiation using double locking mechanism
 	* Option 2 - simplify singleton implementation using inner class

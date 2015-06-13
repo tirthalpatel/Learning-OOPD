@@ -8,9 +8,9 @@ Just import this project in Eclipse as an existing project, do necessary configu
 
 Motive
 ------
-Lastly in year 2005, I read "Head First Design Patterns" book and then I consider patterns usage in coding as and when required. 
+Lastly in year 2005, I read "Head First Design Patterns" book and then I consider patterns usage in coding as and when required.
 
-Again I thought to revise my design patterns knowledge in chunks by March 2015 year, and this project would be consequence of it.   
+Again I thought to revise my design patterns knowledge in chunks by 2015 year, and this project would be consequence of it.
 
 I took some content from below resources for the quick reference, so credit goes to authors of "SourceMaking Site", "OODesign Site" and "Design Patterns DZone Refcard".
 * http://sourcemaking.com/design_patterns
@@ -23,8 +23,8 @@ Additionally I would implement some of java code examples based on my experience
 Design Patterns
 ===============
 * are recurring solutions to software design problems you find again and again in real-world application development.
-* are just a description or template for how to solve a problem that can be used in many different situations, so can't be transformed directly into code. 
-* can speed up the development process by providing tested, proven development paradigms. 
+* are just a description or template for how to solve a problem that can be used in many different situations, so can't be transformed directly into code.
+* can speed up the development process by providing tested, proven development paradigms.
 * allow developers to communicate using well-known, well understood names for software interactions.
 * allow you to get experience reuse, instead of code reuse.
 
@@ -32,14 +32,14 @@ Patterns can be categorized under the following heads based on Scope.
  * Class - Deals with class relationships that can be changed at compile time.
  * Object - Deals with object relationships that can be changed at runtime.
 
-The are generally categorized as following. 
+The are generally categorized as following.
 
 Creational Patterns
 -------------------
 
-Used to construct objects such that they can be decoupled from their implementing system.
+Focuses on object instantiation. Let you construct objects such that they can be decoupled from their implementing system.
 
-[Start exploring creation pattern] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational)	
+[Start exploring creation patterns] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational)
 * Abstract Factory
 * Builder
 * Factory Method
@@ -50,9 +50,9 @@ Used to construct objects such that they can be decoupled from their implementin
 Structural Patterns
 -------------------
 
-Used to form large object structures between many disparate objects.
+Focuses on the relationship of classes structure. Let you ease the design by identifying a simple way to realize relationships between entities.
 
-[Start exploring structural pattern] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural)
+[Start exploring structural patterns] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural)
 * Adapter
 * Bridge
 * Composite
@@ -65,9 +65,9 @@ Used to form large object structures between many disparate objects.
 Behavioral Patterns
 -------------------
 
-Used to manage algorithms, relationships and responsibilities between objects.
+Focuses on the communication between objects. Let you manage algorithms, relationships, and responsibilities between objects.
 
-[Start exploring behavioral pattern] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral)
+[Start exploring behavioral patterns] (https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral)
 * Chain of Responsibility
 * Command
 * Interpreter
@@ -83,6 +83,8 @@ Used to manage algorithms, relationships and responsibilities between objects.
 
 Concurrency Patterns
 --------------------
+
+Let you deal with the multi-threaded programming paradigm.
 
 To be added in future
 

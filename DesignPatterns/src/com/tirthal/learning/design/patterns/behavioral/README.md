@@ -1,9 +1,8 @@
 Behavioral Patterns
 ==================
-* Deals with how classes and objects interact and distribute responsibility
-* Behavioral patterns focus on algorithms and the assignment of responsibilities between objects. They address object or class patterns as well as the communication patterns between them. 
-	- A behavioral class pattern uses inheritance to distribute behavior among classes. 
-	- In contrast, a behavioral object pattern uses object composition.
+* The behavioral patterns provide solution for the better interaction between objects and how to provide lose coupling and flexibility to extend easily.
+* The behavioral patterns are about communication between separate objects and they specify how separate objects interact.
+* The behavioral patterns describe the ways objects and classes interact and divide responsibilities among themselves.
 
 Following are behavirol patterns. Click below url to learn further.
 * Chain of Responsibility - A way of passing a request between a chain of objects
