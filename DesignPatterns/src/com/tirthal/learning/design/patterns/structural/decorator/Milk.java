@@ -2,12 +2,12 @@ package com.tirthal.learning.design.patterns.structural.decorator;
 
 /**
  * Milk is-a type of condiment, which is example of the concrete decorator class.
- * 
+ *
  * @author tirthalp
- * 
+ *
  */
 public class Milk extends CondimentDecorator {
-	
+
 	// An instance variable to hold the beverage we are wrapping
 	Beverage beverage;
 
@@ -23,6 +23,6 @@ public class Milk extends CondimentDecorator {
 
 	// First we delegate the call to the object we're decorating, so that it can compute the cost, and then add the cost of this condiment to the result
 	public double cost() {
-		return 1.00 + beverage.cost();
+		return beverage.cost() + 1.00;
 	}
 }
