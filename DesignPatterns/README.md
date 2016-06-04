@@ -71,7 +71,7 @@ Focuses on the communication between objects. Let you manage algorithms, relatio
 * Mediator
 * Memento
 * Null Object
-* [Observer]((https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral/observer)
+* [Observer](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral/observer)
 * State
 * [Strategy](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/behavioral/strategy)
 * Template Method
