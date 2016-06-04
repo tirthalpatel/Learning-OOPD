@@ -16,6 +16,7 @@ public class AppTestDrive {
 
 	public static void main(String[] args) {
 		Auctioner auctioner = new Auctioner();
+		
 		Bidder b1 = new Bidder("Bidder One - Kat");
 		Bidder b2 = new Bidder("Bidder Two - Ash");
 		Bidder b3 = new Bidder("Bidder Three - Jade");

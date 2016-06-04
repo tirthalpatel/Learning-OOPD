@@ -1,6 +1,7 @@
 package com.tirthal.learning.design.patterns.behavioral.observer;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Auctioner is implementation of Subject, and offers functionality to register observers, notify state updates to registered observers and unregister
@@ -10,7 +11,7 @@ import java.util.ArrayList;
  *
  */
 public class Auctioner implements Subject {
-	private ArrayList<Observer> observers;
+	private List<Observer> observers;
 	private float bidPrice;
 
 	public Auctioner() {
