@@ -3,9 +3,7 @@
 
 *** Description =
 
-- There should never be more than one reason for a class to change.
-
-- In this context a responsibility is considered to be one reason to change a class.
+- There should never be more than one reason for a class to change. In this context a responsibility is considered to be one reason to change a class.
  
 - This principle states that if we have 2 reasons to change for a class, we have to split the functionality in two classes. 
   Each class will handle only one responsibility and in future if we need to make one change we are going to make it in the class which handle it.

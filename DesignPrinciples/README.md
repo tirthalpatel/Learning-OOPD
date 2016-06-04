@@ -3,7 +3,7 @@ Learn OOP Design Principles
 
 This project is created for sharing sample java code (by practical examples along with easy to understand comments) to learn object oriented programming concepts and design principles.
 
-How to use? - Just import this project in Eclipse as an existing project, do necessary configuration (e.g. JRE) and use it for learning purpose.
+How to use? - Just import this project in Eclipse an "Existing Maven Project". If require, do necessary configuration to fix build path errors (e.g. setup JRE 1.8).
 
 For more detail, please read [here](http://tirthalpatel.blogspot.in/2014/01/oop-design-fundamentals-and-principles.html)
 

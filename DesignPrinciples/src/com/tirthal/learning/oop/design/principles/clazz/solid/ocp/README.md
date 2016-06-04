@@ -3,9 +3,7 @@
 
 *** Description = http://www.oodesign.com/design-principles.html
 	
-	- When writing your classes to make sure that when you need to extend their behavior you don't have to change the class but to extend it. 
-	
-	- The same principle can be applied for modules, packages, libraries.
+	- "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"; that is, such an entity can allow its behaviour to be extended without modifying its source code.
 	 
 	- If you have a library containing a set of classes there are many reasons for which you'll prefer to extend it without changing the code 
 	  that was already written (backward compatibility, regression testing...). This is why we have to make sure our modules follow Open Closed Principle.
