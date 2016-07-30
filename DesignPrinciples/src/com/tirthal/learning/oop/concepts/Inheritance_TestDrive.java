@@ -26,7 +26,7 @@ public class Inheritance_TestDrive {
 	public static void main(String[] args) {
 		Dog dog = new Dog();
 		dog.setId(123); // inherited from super class
-		dog.sound(); // overrided behavior of super class
+		dog.sound(); // overrided behavior of sub class
 	}
 }
 
