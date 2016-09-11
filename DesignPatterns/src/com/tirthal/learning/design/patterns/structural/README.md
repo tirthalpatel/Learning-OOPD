@@ -6,11 +6,11 @@
 
 ## See it in Action:
 
-* Adapter - Match interfaces of different classes
-* Bridge - Separates an object’s interface from its implementation
-* Composite - A tree structure of simple and composite objects
+* [Adapter](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural/adapter) - Match interfaces of different classes
+* [Bridge](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural/bridge) - Separates an object’s interface from its implementation
+* [Composite](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural/composite) - A tree structure of simple and composite objects
 * [Decorator](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural/decorator) - Add additional responsibilities to an object dynamically
 * Facade - A single class that represents an entire subsystem
 * Flyweight - A fine-grained instance used for efficient sharing
-* Private Class Data - Restricts accessor/mutator access
 * Proxy - An object representing another object
+* Private Class Data - Restricts accessor/mutator access

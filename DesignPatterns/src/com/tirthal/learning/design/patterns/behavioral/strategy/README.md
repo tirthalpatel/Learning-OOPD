@@ -1,9 +1,12 @@
 # Strategy Pattern
 
-## Purpose / Definition
+The strategy pattern is used to create an interchangeable family of algorithms from which the required process is chosen at run-time.
+
+## Usage / Concepts
 
 * Defines a set of encapsulated algorithms that can be swapped to carry out a specific behavior.
 * Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+* Multiple versions or variations of an algorithm are required. Algorithms access or utilize data that calling code shouldn't be exposed to. The behavior of a class should be defined at runtime.
 
 ## See it in Action / Sample Code Snippet
 
@@ -13,22 +16,14 @@
 	* PayByCash.java, PayByCreditCard.java, PayByPaypal.java - the derived classes hiding the implementation details of PaymentStrategy.java 
 	* Merchant.java, MakeMyTrip.java, Myntra.java - clients makes use of an encapsulated family of algorithms for payment
 
-## Use when
-
-* The only difference between many related classes is their behavior.
-* Multiple versions or variations of an algorithm are required.
-* Algorithms access or utilize data that calling code shouldn't be exposed to.
-* The behavior of a class should be defined at runtime.
-* Conditional statements are complex and hard to maintain.
-
-## Important Points
+## Key Design Considerations
 
 * Identify an algorithm (i.e. a behavior) that the client would prefer to access through a "flex point".
 * Specify the signature for that algorithm in an interface.
 * Hide the alternative implementation details in derived classes.
 * Clients of the algorithm couple themselves to the interface.
 
-## Hot Spot
+## Hot Spots
 
 * The strategy design pattern splits the behavior (there are many behaviors) of a class from the class itself. This has some advantages, but the main draw back is that a client must understand how the Strategies differ. Since clients get exposed to implementation issues the strategy design pattern should be used only when the variation in behavior is relevant to them.
 

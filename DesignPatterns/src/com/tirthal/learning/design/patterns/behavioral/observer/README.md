@@ -1,8 +1,11 @@
 # Observer Pattern
 
-## Purpose / Definition
+The observer pattern is used to allow an object to publish changes to its state. Other objects subscribe to be immediately notified of any changes.
+
+## Usage / Concepts
 
 * Observer pattern = Publishers + Subscribers.
+* Use when, state changes in one or more objects should trigger behavior in other objects. Broadcasting capabilities are required.
 * Defines one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 * It lets one or more objects to be notified of state changes in other objects within the system. Here, the objects that watch on the state of another object are called Observer and the object that is being watched is called Subject.
 
@@ -13,13 +16,7 @@
 	* Auctioner.java implements Subject.java
 	* Bidder.java implements Observer.java
 
-## Use when
-
-* State changes in one or more objects should trigger behavior in other objects.
-* Broadcasting capabilities are required.
-* An understanding exists that objects will be blind to the expense of notification.
-
-## Important Points
+## Key Design Considerations
 
 * Differentiate between the core (or independent) functionality and the optional (or dependent) functionality.
 * Model the independent functionality with a "subject" abstraction.
@@ -30,7 +27,7 @@
 * The Subject broadcasts events to all registered Observers.
 * The Subject may "push" information at the Observers, or, the Observers may "pull" the information they need from the Subject.
 
-## Hot Spot
+## Hot Spots
 
 * Sometime if any problem comes, debugging becomes very difficult because flow of control is implicitly between observers and observable. 
 * Also if we miss to unregister the object it can create the memory issue, because subject holds all the reference of all the observers.

@@ -9,9 +9,9 @@
 
 ## See it in Action:
 
-* Abstract Factory - Creates an instance of several families of classes
-* Builder - Separates object construction from its representation
-* Factory Method - Creates an instance of several derived classes
-* Object Pool - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use
-* Prototype - A fully initialized instance to be copied or cloned
 * [Singleton](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/singleton) - A class of which only a single instance can exist within a system
+* [Builder](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/builder) - Separates object construction from its representation
+* [Prototype](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/prototype) - A fully initialized instance to be copied or cloned
+* [Factory Method](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/factorymethod) - Creates an instance of several derived classes
+* [Abstract Factory](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/abstractfactory) - Creates an instance of several families of classes
+* [Object Pool](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/objectpool) - Avoid expensive acquisition and release of resources by recycling objects that are no longer in use

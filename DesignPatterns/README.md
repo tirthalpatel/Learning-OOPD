@@ -12,11 +12,14 @@ Lastly in year 2005, I read "Head First Design Patterns" book and then I conside
 
 Again I thought to revise my design patterns knowledge in chunks by 2016 year, and this project would be consequence of it.
 
-I consider to take some content from below resources for the quick reference, so credit goes to authors of "SourceMaking Site", "OODesign Site" and "Design Patterns DZone Refcard".
+I consider to take some content from below resources for the quick reference, so credit goes to authors of "Tutorials Point", "Java Point", "SourceMaking Site", "OODesign Site", "Design Patterns DZone Refcard" and "Design Patterns in Java courses of Pluralsight".
 
+* http://www.javatpoint.com/design-patterns-in-java
+* http://www.tutorialspoint.com/design_pattern/index.htm
 * http://sourcemaking.com/design_patterns
 * http://www.oodesign.com/
 * http://refcardz.dzone.com/refcardz/design-patterns
+* https://app.pluralsight.com/library/search?q=%22Design+Patterns+in+Java%22
 
 Additionally, I intend to implement some of java code examples based on my experience.
 
@@ -34,31 +37,31 @@ Patterns can be categorized under the following heads based on Scope.
  * Class - Deals with class relationships that can be changed at compile time.
  * Object - Deals with object relationships that can be changed at runtime.
 
-The are generally categorized as following.
+The design patterns in java are generally categorized as following.
 
 ## Creational Patterns
 
-Focuses on object instantiation. Let you construct objects such that they can be decoupled from their implementing system. [Start exploring creation patterns](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational),
+Focuses on object instantiation or how objects are created. Let you construct objects such that they can be decoupled from their implementing system. [Start exploring creation patterns](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational),
 
-* Abstract Factory
-* Builder
-* Factory Method
-* Object Pool
-* Prototype
 * [Singleton](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/singleton)
+* [Builder](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/builder)
+* [Prototype](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/prototype)
+* [Factory Method](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/factorymethod)
+* [Abstract Factory](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/abstractfactory)
+* [Object Pool](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/creational/objectpool)
 
 ## Structural Patterns
 
 Focuses on the relationship of classes structure. Let you ease the design by identifying a simple way to realize relationships between entities. [Start exploring structural patterns](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural),
 
-* Adapter
-* Bridge
-* Composite
+* [Adapter](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural/adapter)
+* [Bridge](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural/bridge)
+* [Composite](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural/composite)
 * [Decorator](https://github.com/tirthalpatel/Learning-OOPD/tree/master/DesignPatterns/src/com/tirthal/learning/design/patterns/structural/decorator)
 * Facade
-* Flyweightg
-* Private Class Data
+* Flyweight
 * Proxy
+* Private Class Data
 
 ## Behavioral Patterns
 
