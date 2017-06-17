@@ -13,6 +13,14 @@ package com.tirthal.learning.oop.design.principles.clazz.solid.ocp.parsing.bad;
  */
 public class FileParser {
 
+	private String filePath;
+	private String expression;
+	
+	public FileParser(String filePath, String expression) {
+		this.filePath = filePath;
+		this.expression = expression;
+	}
+	
 	/**
 	 * apply parsing rule based the file based on extension type
 	 * 
@@ -20,7 +28,7 @@ public class FileParser {
 	 * @param expression
 	 * @return
 	 */
-	public String parse(String filePath, String expression) {
+	public String parse() {
 
 		if (filePath.indexOf(".xml") > 1) { // XML parsing condition
 

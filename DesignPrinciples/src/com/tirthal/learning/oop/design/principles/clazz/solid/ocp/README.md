@@ -30,10 +30,27 @@
 	------ How to do code-refactoring to make "good" design using OCP?
 	
 		- Refer com.tirthal.learning.oop.design.principles.clazz.solid.ocp.parsing.good.FileParser
-		- FileParser is abstract class. Now to support new type of parsing support, just add new class extending FileParser class  
-	
+		- FileParser is abstract class. Now to support new type of parsing support, just implement new class extending FileParser class. 
+		- So OCP is followed, because there is no modification in FileParser to extend new type. 
 
-(2) Drawing Shapes (package = com.tirthal.learning.oop.design.principles.clazz.solid.ocp.drawing 
+(2) Order Import and Export (package = com.tirthal.learning.oop.design.principles.clazz.solid.ocp.exporter)
+
+	Requirement - Need to support order export in JSON and XML formats.
+	
+	------ First let's see "bad" design and implementation
+		
+		- Refer com.tirthal.learning.oop.design.principles.clazz.solid.ocp.exporter.bad.Order
+		- See exportAsJson() and exportAsXml()
+		- In future if you need to extend it to support SQL export, then what will you do? Well you have to modify Order class to add exportAsSql() for SQL format. So OCP is violated.
+	
+	------ How to do code-refactoring to make "good" design using OCP?
+	
+		- Refer com.tirthal.learning.oop.design.principles.clazz.solid.ocp.exporter.good.Order
+		- See usage of Importer and Exporter interfaces in Order class
+		- In future if you need to extend it to support SQL export, then what will you do? Well, just implement new SqlImporter and SqlExporter classes.
+		- So OCP is followed, because there is no modification in Order class to extend SQL export support. 
+
+(3) Drawing Shapes (package = com.tirthal.learning.oop.design.principles.clazz.solid.ocp.drawing) 
 
 	- Reference: http://www.oodesign.com/open-close-principle.html
 	

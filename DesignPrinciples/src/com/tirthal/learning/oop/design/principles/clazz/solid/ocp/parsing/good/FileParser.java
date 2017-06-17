@@ -12,7 +12,16 @@ package com.tirthal.learning.oop.design.principles.clazz.solid.ocp.parsing.good;
  * 
  */
 abstract class FileParser {
-	abstract String parse(String filePath, String expression);
+	
+	String filePath;
+	String expression;
+	
+	public FileParser(String filePath, String expression) {
+		this.filePath = filePath;
+		this.expression = expression;
+	}
+	
+	abstract String parse();
 }
 
 /**
@@ -23,8 +32,12 @@ abstract class FileParser {
  */
 class XMLParser extends FileParser {
 
+	public XMLParser(String filePath, String expression) {
+		super(filePath, expression);
+	}
+	
 	@Override
-	String parse(String filePath, String expression) {
+	String parse() {
 		// TODO: implement xml parsing logic using xpath
 		return "";
 	}
@@ -38,8 +51,12 @@ class XMLParser extends FileParser {
  */
 class TextParser extends FileParser {
 
+	public TextParser(String filePath, String expression) {
+		super(filePath, expression);		
+	}
+
 	@Override
-	String parse(String filePath, String expression) {
+	String parse() {
 		// TODO: implement text parsing logic using regular expression
 		return "";
 	}

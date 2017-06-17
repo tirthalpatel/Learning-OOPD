@@ -7,6 +7,8 @@ package com.tirthal.learning.oop.concepts;
 ///**
 // * Delegation = hand over the responsibility for a particular task to another class or method. 
 // *
+// * Ask for help, not for information. Don't get() the data. Ask the object that has the data to do the work for you. The object that has the information does the work.
+// *
 // * If you need to use functionality in another class but you do not want to change that functionality then use delegation instead of inheritance.
 // */
 
@@ -18,7 +20,7 @@ package com.tirthal.learning.oop.concepts;
  * This is test class for the delegation and polymorphism example
  * 
  * @author tirthalp
- * 
+ * @see Delegation_InsteadOfGetterSetter_TestDrive
  */
 public class Delegation_TestDrive {
 
